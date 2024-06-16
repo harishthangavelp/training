@@ -8,7 +8,10 @@ import Contact from './components/Contact'
 import PersonalDetails from './components/PersonalDetails'
 
 function App() {
+  let name = "Anupriya";
+  const age = 28;
   return (
+    <>
     <Router>
         <div>
          <Navigation/>
@@ -20,6 +23,8 @@ function App() {
          </Routes>
         </div>
     </Router>
+<i> Actually <b>{name}</b> age is <b>{age}</b> </i>
+    </>
   )
 }
 
